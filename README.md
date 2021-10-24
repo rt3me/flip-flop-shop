@@ -1,3 +1,3 @@
-# Battle Bowls Nilla
+# Flip Flop Shop
 
-Live demo: https://battle-bowls-nilla.netlify.app
+Flip Flop store e-commerce HTML template built with Bootstrap 5
