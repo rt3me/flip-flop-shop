@@ -15,6 +15,29 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  background-image: url('../src/img/flip-flop-pattern.svg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#flip-flop-cover {
+  width: 1000px;
+  position: absolute;
+  top: -10%;
+  /*left: 50%;
+  transform: translate(-50%);*/
+  z-index: -100;
+}
+@include media-breakpoint-up(md) {
+  #flip-flop-cover {
+    width: 1200px;
+  }
 }
 
 /* CUSTOMIZE THE CAROUSEL
