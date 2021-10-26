@@ -12,7 +12,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
+  /*padding-top: 3rem;*/
   padding-bottom: 3rem;
   color: #5a5a5a;
   background-image: url('../src/img/flip-flop-pattern.svg');
@@ -21,6 +21,8 @@ body {
 
 header {
   display: flex;
+  flex-direction: column;
+  gap: 30px;
   justify-content: center;
   align-items: center;
   background-image: url('../src/img/flip-flop-cover.svg');
