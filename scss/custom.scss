@@ -17,28 +17,23 @@ body {
   color: #5a5a5a;
   background-image: url('../src/img/flip-flop-pattern.svg');
   background-size: cover;
-  overflow-x: hidden;
 }
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('../src/img/flip-flop-cover.svg');
+  background-repeat: no-repeat;
+  background-position: top -150px left 50%;
+  background-size: 1000px;
 }
 
-#flip-flop-cover {
-  width: 1000px;
-  position: absolute;
-  top: -10%;
-  /*left: 50%;
-  transform: translate(-50%);*/
-  z-index: -100;
-}
-@include media-breakpoint-up(md) {
-  #flip-flop-cover {
-    width: 1200px;
+/*@include media-breakpoint-up(md) {
+  header {
+    background-size: 1000px;
   }
-}
+}*/
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
