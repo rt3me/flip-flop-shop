@@ -27,15 +27,23 @@ header {
   align-items: center;*/
   background-image: url('../src/img/flip-flop-cover.svg');
   background-repeat: no-repeat;
-  background-position: top -150px left 50%;
+  background-position: top -80px left 50%;
   background-size: 1000px;
 }
 
-/*@include media-breakpoint-up(md) {
+@include media-breakpoint-up(md) {
   header {
-    background-size: 1000px;
+    background-position: top -180px left 50%;
+    background-size: 1300px;
   }
-}*/
+}
+
+@include media-breakpoint-up(xl) {
+  header {
+    background-position: top -275px left 50%;
+    background-size: 1550px;
+  }
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
