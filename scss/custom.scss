@@ -16,7 +16,20 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
   background-image: url('../src/img/flip-flop-pattern.svg');
+  background-size: 20rem;
 }
+
+/*@include media-breakpoint-up(sm) {
+  body {
+    background-size: 55vw;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  body {
+    background-size: 40vw;
+  }
+*/
 
 header {
   /*display: flex;
