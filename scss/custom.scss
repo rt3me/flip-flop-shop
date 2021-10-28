@@ -66,6 +66,14 @@ header {
   width: 10rem;
 }
 
+.trip-flops .trip-flop-item img {
+  margin-bottom: 1rem;
+}
+
+.trip-flops .trip-flop-item h3 {
+  margin-bottom: 0;
+}
+
 @include media-breakpoint-up(sm) {
   .trip-flops > div {
     flex-direction: row;
