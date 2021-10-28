@@ -56,3 +56,30 @@ header {
     background-size: 1550px;
   }
 }
+
+.trip-flops > div {
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.trip-flops .trip-flop-item {
+  width: 10rem;
+}
+
+@include media-breakpoint-up(sm) {
+  .trip-flops > div {
+    flex-direction: row;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .trip-flops > div {
+    gap: 5rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .trip-flops > div {
+    gap: 7rem;
+  }
+}
