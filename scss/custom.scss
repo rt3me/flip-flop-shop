@@ -5,39 +5,19 @@
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
-// Then add additional custom code here
-
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
 body {
-  /*padding-top: 3rem;*/
-  padding-bottom: 3rem;
   color: #5a5a5a;
   background-image: url('../src/img/flip-flop-pattern.svg');
   background-size: 20rem;
   background-position: center;
 }
 
-/*@include media-breakpoint-up(sm) {
-  body {
-    background-size: 55vw;
-  }
+h2.section-title {
+  font-size: 2.25rem;
+  margin-bottom: 2.25rem;
 }
 
-@include media-breakpoint-up(md) {
-  body {
-    background-size: 40vw;
-  }
-*/
-
 header {
-  /*display: flex;
-  flex-direction: column;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;*/
   background-image: url('../src/img/flip-flop-cover.svg');
   background-repeat: no-repeat;
   background-position: top -80px left 50%;
@@ -69,10 +49,12 @@ header {
 
 .trip-flops .trip-flop-item img {
   margin-bottom: 1rem;
+  height: 195px;
 }
 
 .trip-flops .trip-flop-item h3 {
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 @include media-breakpoint-up(sm) {
